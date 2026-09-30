@@ -400,31 +400,6 @@ function Payments() {
                         </button>
                     </div>
 
-                    <div className="integration-banner">
-                        <div className="integration-icon">
-                            <Icon icon="mdi:link-variant" />
-                        </div>
-
-                        <div>
-                            <strong>
-                                Confirmed payment workflow
-                            </strong>
-
-                            <span>
-                                Payment details and proof are reviewed before the bill is marked as paid.
-                            </span>
-                        </div>
-
-                        <Icon
-                            className="integration-arrow"
-                            icon="mdi:arrow-right"
-                        />
-
-                        <span className="integration-step">
-                            Bill → Proof → Review → Paid
-                        </span>
-                    </div>
-
                     {message && (
                         <div className={`savings-message ${messageType}`}>
                             <Icon
